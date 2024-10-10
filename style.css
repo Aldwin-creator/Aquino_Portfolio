@@ -10,9 +10,9 @@ section{
 
 
 .Navigations a {
-    text-decoration: none; /* Remove underline */
-    color: rgb(255, 255, 255); /* Original text color */
-    transition: color 0.3s; /* Smooth color transition */
+    text-decoration: none; 
+    color: rgb(255, 255, 255); 
+    transition: color 0.3s; 
 }
 
 
