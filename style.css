@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+section{
+    height: 100vh;
+}
+
+
+.Navigations a {
+    text-decoration: none; /* Remove underline */
+    color: rgb(255, 255, 255); /* Original text color */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+
+.Navigations a:hover {
+    color: darkblue;
+}
+
+
+.Navigations a:active {
+    color: black
+}
+
+header{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    background-color: #4c5270;
+}
+
+ul{
+    display: flex;
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+li{
+    color: rgb(255, 255, 255);
+    width: 200px;
+    list-style-type: none ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+}
+
+.logo{
+    color: white;
+    margin-left: 30px;
+    font-size: 40px;
+}
+ 
+.Container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.Name_and_Profession{
+    height: 85%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.FullName{
+    font-size: 50px;
+}
+ 
+.Work{
+    font-size: 20px;
+}
+
+.Me{
+    height: 85%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.PicBackground{
+    height: 80%;
+    width: 80%;
+    background-color: #5d7c90;
+}
+
+.Pic1{
+    height: 100%;
+    width: 100%;
+}
+
+#about{
+    background-color: #596593;
+}
+
+#skills{
+    background-color: #5d7c90;
+}
+
+#gallery{
+    background-color: #596593;
+}
+
+#contact{
+    background-color: white;
+}
